@@ -21,7 +21,7 @@ public class HomePageTest extends BaseTest{
 		homePage=new HomePage();
 		homePage=loginPage.Login(prop.getProperty("username"),prop.getProperty("password"));
 	}
-	
+	test
 	@Test(priority=2)
 	public void logoTest() throws InterruptedException{
 		Thread.sleep(3000);
